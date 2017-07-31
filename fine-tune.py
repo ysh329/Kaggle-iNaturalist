@@ -60,7 +60,7 @@ if __name__ == "__main__":
 	# 1k imagenet pretrained
     #get_model('http://data.mxnet.io/models/imagenet/resnet/152-layers/resnet-152', 0)
 	# 11k imagenet resnet 152 has stronger classification power
-     get_model('http://data.mxnet.io/models/imagenet-11k/resnet-152/resnet-152', 0)
+    get_model('http://data.mxnet.io/models/imagenet-11k/resnet-152/resnet-152', 0)
     prefix = 'model/resnet-152'
     epoch = 0
     sym, arg_params, aux_params = mx.model.load_checkpoint(prefix, epoch)
