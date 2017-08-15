@@ -10,4 +10,4 @@ wget -c http://data.dmlc.ml/models/imagenet/vgg/vgg19-symbol.json
 wget -c http://data.dmlc.ml/models/imagenet/vgg/vgg19-0000.params
 
 wget -c http://data.dmlc.ml/models/imagenet/caffenet/caffenet-0000.params
-wget -c http://data.dmlc.ml/models/imagenet/caffenet/caffenet-symbol.jsonq
+wget -c http://data.dmlc.ml/models/imagenet/caffenet/caffenet-symbol.json
