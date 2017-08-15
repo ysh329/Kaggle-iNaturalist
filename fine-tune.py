@@ -48,7 +48,7 @@ if __name__ == "__main__":
     # when training comes to 10th and 20th epoch
 	# see http://mxnet.io/how_to/finetune.html and Mu's thesis
     # http://www.cs.cmu.edu/~muli/file/mu-thesis.pdf 
-    parser.set_defaults(image_shape='3,320,320', num_epochs=30,
+    parser.set_defaults(image_shape='3,224,224', num_epochs=30,
                         lr=.01, lr_step_epochs='10,20', wd=0, mom=0)
 
     args = parser.parse_args()
